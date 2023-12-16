@@ -1,5 +1,5 @@
 # MRD_D750 / 7.5" SyncSign
-This was tested with a SyncSign model D75C-LEWI-RED. The internal markings indicate the model MRD_D750, indicating that it may be an off-the-shelf design modified for use by SyncSign.
+This was tested with a SyncSign model D75C-LEWI-RED. The internal markings indicate the model Vobot MRD_D750, as a result, this model name has been used.
 
 This project would also presumably work with the yellow variant of the device, however, I do not have one to test with. Please open an issue or P/R documenting your test if you happen to get this code working on the yellow display.
 
@@ -39,3 +39,4 @@ The onboard WiFi has been tested and is known to work.
 
 # PCB
 The switch labeled SW1 appears to be wired to the ESP32's reset pin. It also appears to do something with the CC2530.
+![](https://github.com/Sidpatchy/MRD_D750/blob/master/boardview.png?raw=true)
